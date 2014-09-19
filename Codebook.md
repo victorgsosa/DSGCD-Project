@@ -14,7 +14,7 @@ The project assigment requires to make the following steps in order to process r
 
 Codebook:
 
-
+- Load files
 - Name Subject columns.
 - Uses descriptive activity names to name the activities in the data set by merging activity data with the activity labels
 - Change names of the activity data
