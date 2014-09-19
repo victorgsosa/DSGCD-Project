@@ -16,7 +16,7 @@ Codebook:
 
 - Load files
 - Name Subject columns.
-- Uses descriptive activity names to name the activities in the data set by merging activity data with the activity labels
+- Use descriptive activity names to name the activities in the data set by merging activity data with the activity labels
 - Change names of the activity data
 - Merges the training and the test sets to create one data set for measurements, activities and subjects using rbind function.
 - Extracts only the measurements on the mean and standard deviation for each measurement using grepl function to look for the patterns "mean" and "std" into the features names.
