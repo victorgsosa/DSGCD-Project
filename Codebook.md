@@ -15,12 +15,12 @@ The project assigment requires to make the following steps in order to process r
 Codebook:
 
 
-Name Subject columns.
-Uses descriptive activity names to name the activities in the data set by merging activity data with the activity labels
-Change names of the activity data
-Merges the training and the test sets to create one data set for measurements, activities and subjects using rbind function.
-Extracts only the measurements on the mean and standard deviation for each measurement using grepl function to look for the patterns "mean" and "std" into the features names.
-Merge all data (measurements, activities and subjects) usign cbind function
-Create the tidy data set by melting the data using the columns "Activities" and "Subject" and the measures taken from the names of the measurements data frame (previosly filtered)
-Write the data into file result.txt
+- Name Subject columns.
+- Uses descriptive activity names to name the activities in the data set by merging activity data with the activity labels
+- Change names of the activity data
+- Merges the training and the test sets to create one data set for measurements, activities and subjects using rbind function.
+- Extracts only the measurements on the mean and standard deviation for each measurement using grepl function to look for the patterns "mean" and "std" into the features names.
+- Merge all data (measurements, activities and subjects) usign cbind function
+- Create the tidy data set by melting the data using the columns "Activities" and "Subject" and the measures taken from the names of the measurements data frame (previosly filtered)
+- Write the data into file result.txt
 
