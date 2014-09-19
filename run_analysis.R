@@ -58,6 +58,6 @@ measurements <- cbind(measurements[,which(grepl("mean",features[,2]))],measureme
 data <- cbind(measurements, activity, subject)
 
 # Create the tidy data set
-meltedData <- melt(data, id.vars=c("Activity", "Subject"), measure.vars=(1:ncol(measurements)))
+meltedData <- melt(data, id.vars=c("Activity", "Subject"), measure.vars=names(measurements))
 tidyData <- dcast(meltedData, Activity + Subject ~ variable, mean)
 write.table(tidyData, "./result.txt", row.name=FALSE)
